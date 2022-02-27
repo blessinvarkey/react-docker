@@ -1,12 +1,15 @@
-# Getting Started with Create React App
-Open the project directory and run:
+```
+npx create-react-app .
+```
 
-`npm start`
+```
+npm start 
+```
 
-Runs the app in the development mode.   
+```
+docker build -t <image name> .
+```
 
-
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.   
-
-
-The page will reload if you make edits.
+```
+docker run -d -p 3000:3000 d-react
+```
