@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Index() {
   return (
-      <div> This is a text file</div>
+      <div> Hello World</div>
   )
 }
 
